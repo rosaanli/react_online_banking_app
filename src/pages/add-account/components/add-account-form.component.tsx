@@ -55,9 +55,9 @@ export const AddAcountFormComponent : React.FC<Props> = ( props) => {
           {errors.name && <p className={classes.error}>{errors.name}</p>}
         </div>
       </div>
-    </form>
     <div className={classes.buttonContainer}>
       <button type="submit"> GUARDAR </button>
     </div>
+    </form>
   </>
 };

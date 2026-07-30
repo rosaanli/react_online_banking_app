@@ -14,7 +14,7 @@
 .bg-img {
   width: 100%;
   height: 400px;
-  background: url("assets/bg_login.jpg") no-repeat right center;
+  background: url("/assets/bg_login.jpg") no-repeat right center;
   background-size: cover;
   margin: 0 auto;
 }
@@ -48,7 +48,7 @@
 
 .input-footer:before {
   content: "";
-  background: url(assets/secure_site.svg) no-repeat center center;
+  background: url("/assets/secure_site.svg") no-repeat center center;
   width: 40px;
   height: 15px;
   position: relative;

@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  background: #ffffff;
+  background: var(--primary_color);
 }
 
 .logo {

@@ -27,7 +27,7 @@ export const LoginPage: React.FC = () =>{
   return (
   <>
     <header className= {classes.header}>
-      <img src="assets/logo_header.svg" className = {classes.logo}/>
+      <img src="/assets/logo-blick.png" className = {classes.logo}/>
     </header>
     <div className={classes.bgImg}></div>
     <div className ={classes.box}>

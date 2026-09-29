@@ -10,7 +10,7 @@ export const HeaderComponent : React.FC = () => {
 
   const handleLogout = () => {
     logout();
-    navigate(appRoutes.root);
+    navigate(appRoutes.root, {replace:true});
   };
 
   return (
